@@ -1,0 +1,108 @@
+.container {
+margin: 0 auto;
+max-width: 1000px;
+padding: 1rem;
+font-family: 'Francois One', sans-serif;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear:both;
+}
+p{
+  font-family: 'Francois One', sans-serif;
+}
+h1 {
+  font-size:3em;
+  font-family: 'Francois One', sans-serif;
+}
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: 'Francois One', sans-serif;
+}
+h3 {
+  font-size: 1.5em;
+  color: black;
+  font-family: 'Francois One', sans-serif;
+}
+h4 {
+  font-size: 1.5em;
+  font-style: normal;
+  color: black;
+  font-family: 'Francois One', sans-serif;
+}
+h5 {
+  font-size: 1.5em;
+  font-style: italic;
+  color: black;
+  font-family: 'Francois One', sans-serif;
+}
+footer {
+  justify-content: center;
+  background-color: gray;
+  font-family: 'Francois One', sans-serif;
+  padding-top: 1rem;
+}
+header {
+background-color: red;
+color: white;
+font-family: 'Francois One', sans-serif;
+}
+.topnav {
+
+    overflow: hidden;
+    max-width: 1000px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+nav {
+  overflow: auto;
+  background-color: lightgreen;
+  height: auto;
+}
+nav li {
+  float: left;
+  margin: 0;
+  padding: .5rem 1rem .5rem 0;
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li p{
+    float: left;
+    color: black;
+    text-align: center;
+    /* object-position: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.sidebar {
+  float: right;
+  padding: 1rem;
+  height: 42rem;
+}
+.flex-container {
+   height: 20rem;
+   background-color: gold;
+   display: flex;
+   flex-direction: column;
+   /* border: 2px dotted grey; */
+   flex-direction: column;
+   /* justify-content: flex-start; */
+   align-items: center;
+   /* flex-wrap: wrap-reverse; */
+}
+.flex-container div {
+ color: black;
+ padding: .1rem;
+ /* width: 50px;
+ height: 50px; */
+ font-size: 1rem;
+  font-family: 'Francois One', sans-serif;
+}

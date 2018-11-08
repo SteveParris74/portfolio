@@ -1,5 +1,6 @@
 * {
          box-sizing: border-box;
+        font-family: 'Poor Story', cursive;
     }
 
 img {
@@ -10,7 +11,7 @@ img {
    color: black;
  }
  p {
-     font-family: "Times New Roman", Times, serif;
+      font-family: 'Poor Story', cursive;
  }
 p  {
      outline-style: double;
@@ -49,5 +50,24 @@ p  {
        border: 3px solid #73AD21;
    }
    div {
-    background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+    background: gray;
+}
+.flex-container {
+   height: 20rem;
+   background-color: gray;
+   display: flex;
+   flex-direction: column;
+   border: 2px dotted grey;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   /* flex-wrap: wrap-reverse; */
+}
+.flex-container div {
+ color: white;
+ padding: .1rem;
+ /* width: 50px;
+ height: 50px; */
+ font-size: 1rem;
+ font-family: 'Poor Story', cursive;
 }
