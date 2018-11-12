@@ -108,6 +108,61 @@ nav ul {
  font-size: 1rem;
   font-family: 'Francois One', sans-serif;
 }
+
+}
+aside a:visited {
+font-family: helvetica;
+color: darkgreen;
+}
+aside a:hover {
+  font-weight: bold;
+  color: red;
+  background-color: lightblue;
+  font-size: 120%;
+}
+footer a:hover {
+  text-decoration : underline;
+  border: 3px color: orange;
+}
+footer a:hover {
+  text-decoration : underline;
+  border: 3px color: orange;
+}
+footer:hover {
+  /* border: 3px color: orange; */
+}
+footer {
+  border: 2px solid orange;
+  transition-property: border;
+  transition-duration: 1s;
+}
+footer:hover {
+  border: 4px solid purple;
+}
+li:nth-child(odd) {
+color: green;
+}
+li:nth-child(even) {
+color: red;
+}
+li:first-child {
+color: blue;
+}
 [href^="http:"]{
   background-color: red;
+}
+#delay {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+#delay:hover{
+  font-size: 36px;
+}
+.delay:hover {
+  background-color: lightgray;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-delay: 1s;
 }

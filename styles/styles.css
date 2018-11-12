@@ -113,6 +113,8 @@ color: darkgreen;
 }
 aside a:hover {
   font-weight: bold;
+  color: red;
+  background-color: lightblue;
   font-size: 120%;
 }
 footer a:hover {
@@ -145,4 +147,19 @@ color: blue;
 }
 [href^="http:"]{
   background-color: red;
+}
+#delay {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+#delay:hover{
+  font-size: 36px;
+}
+.delay:hover {
+  background-color: lightgray;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-delay: 1s;
 }
