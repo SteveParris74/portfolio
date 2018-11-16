@@ -119,11 +119,13 @@ aside a:hover {
 }
 footer a:hover {
   text-decoration : underline;
-  border: 3px color: orange;
+  border: 3px;
+  color: orange;
 }
 footer a:hover {
-  text-decoration : underline;
-  border: 3px color: orange;
+  text-decoration: underline;
+  border: 3px; 
+  color: orange;
 }
 footer:hover {
   /* border: 3px color: orange; */

@@ -109,7 +109,6 @@ nav ul {
   font-family: 'Francois One', sans-serif;
 }
 
-}
 aside a:visited {
 font-family: helvetica;
 color: darkgreen;
@@ -121,12 +120,14 @@ aside a:hover {
   font-size: 120%;
 }
 footer a:hover {
-  text-decoration : underline;
-  border: 3px color: orange;
+  text-decoration: underline;
+  border: 3px;
+  color: orange;
 }
 footer a:hover {
-  text-decoration : underline;
-  border: 3px color: orange;
+  text-decoration: underline;
+  border: 3px;
+  color: orange;
 }
 footer:hover {
   /* border: 3px color: orange; */
